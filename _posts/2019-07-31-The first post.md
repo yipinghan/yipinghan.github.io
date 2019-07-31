@@ -13,7 +13,7 @@ tags:
 ---
 
 
-# 前言
+#前言
 > 利用xcode的命令行工具 `xcdeobulid` 进行项目的编译打包，生成ipa包
 
 现在网上的自动打包教程几乎都还是`xcodebuild + xcrun`的方式先生成`.app`包 再生成`.ipa`包,结果弄了一整天硬是没成功~
@@ -22,7 +22,7 @@ tags:
 
 后来用了`archive + -exportArchive`终于可以了~
 
-## 查看项目详情
+##查看项目详情
 
 xcodebuild 的使用可以用 `man xcodebuild`查看。
 
