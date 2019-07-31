@@ -14,15 +14,14 @@ tags:
 
 
 # 前言
-> 利用xcode的命令行工具 `xcdeobulid` 进行项目的编译打包，生成ipa包
+> This blog is mainly used for sharing experiences. 
 
-现在网上的自动打包教程几乎都还是`xcodebuild + xcrun`的方式先生成`.app`包 再生成`.ipa`包,结果弄了一整天硬是没成功~
+Tow parts were included in this bolg, I will write down some experiences about coding what I learned form work, just a few tips.
 
-后来发现`PackageApplication is deprecated`，悲剧。然后手动压缩的 `.ipa`包因为签名问题无法装到手机上。
+The other part is about my learning process in sound design if I could keep it record
 
-后来用了`archive + -exportArchive`终于可以了~
 
-## 查看项目详情
+## Code
 
 xcodebuild 的使用可以用 `man xcodebuild`查看。
 
@@ -32,7 +31,7 @@ xcodebuild 的使用可以用 `man xcodebuild`查看。
 
 	xcodebuild -list
 
-## 打包项目 archive -> ipa
+## Sound
 首先需要创建一个`AdHocExportOptions.plist`文件
 
 添加两个Key-Value
@@ -41,8 +40,6 @@ xcodebuild 的使用可以用 `man xcodebuild`查看。
 - compileBitcode : NO
 
 或者直接复制
-
-
 
 
 
