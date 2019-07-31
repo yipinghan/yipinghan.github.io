@@ -1,17 +1,17 @@
 # Site settings
-title: ZX Blog
-SEOTitle: 嘘的博客 | ZX Blog
+title: HYP Blog
+SEOTitle: HYP Blog
 header-img: img/post-bg-desk.jpg
-email: zx784723438@qq.com
+email: eyipinghan@163.com
 description: "每个胜利背后都有许多尝试"
-keyword: "ZX,ZX Blog, 嘘的博客,78472338,784723438@qq.com,Technical Writer,HuaWei,Python, iPhone"
-url: "http://zXpp.github.io"          # your host, for absolute URL
+keyword: "HYP,HYP Blog,sound design,eyipinghan@163.com,wwise, cubase"
+url: "http://yipinghan.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/zXpp/zXpp.github.io.git" # you code repository
+github_repo: "https://github.com/yipinghan/yipinghan.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Do Not Go Gentle Into That Good Night."
+sidebar-about-description: "Early to bed, early to rise."
 sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
