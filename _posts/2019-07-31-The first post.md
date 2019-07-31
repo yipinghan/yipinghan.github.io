@@ -47,7 +47,7 @@ xcodebuild 的使用可以用 `man xcodebuild`查看。
 
 
 
-> It was posted here the first time [HYP Blog](https://yipinghan.github.io)
-> Author: HYP
-> If you wanna re-post, please keep the original link.
+> It was posted here the first time [HYP Blog](https://yipinghan.github.io).</br>
+> Author: HYP</br>
+> If you wanna re-post, please keep the original link.</br>
 
