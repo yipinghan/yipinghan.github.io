@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      iOS自动打包
-subtitle:   利用 xcdeobulid 打包项目
-date:       2017-04-13
-author:     BY
+title:      The first post
+subtitle:   Hello World, hello you
+date:       2019-07-31
+author:     Hyp
 header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
