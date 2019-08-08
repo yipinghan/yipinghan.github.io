@@ -2,7 +2,7 @@
 layout:     post
 title:      The first post
 subtitle:   Hello World, hello you
-date:       2019-07-31
+date:       2019-07-30
 author:     Hyp
 header-img: img/post-bg-hacker.jpg
 catalog: true
