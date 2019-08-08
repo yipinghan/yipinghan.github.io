@@ -1,15 +1,14 @@
 ---
 layout:     post
-title:      Swift 3.1 的新变化「译」
-subtitle:   What’s New in Swift 3.1?
-date:       2017-03-30
-author:     BY
+title:      Coding sharing summary 2
+subtitle:   C/Audio
+date:       2019-08-08
+author:     HYP
 header-img: img/post-bg-iWatch.jpg
 catalog: true
 tags:
-    - iOS
-    - Swift
-    - Xcode
+    - C
+    - Audio
 ---
 
 
