@@ -58,10 +58,26 @@ After having got my acoustic master degree, I fould some common were often used 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=SNR=Psignal/Pnoise=(Asignal/Anoise)^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?SNR=Psignal/Pnoise=(Asignal/Anoise)^2" title="SNR=Psignal/Pnoise=(Asignal/Anoise)^2" /></a>
 
+它的单位一般使用分贝，其值为十倍对数信号与噪声功率比：<br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=SNR(dB)=10\log_{10}(\frac{Psignal}{Pnoise})=20\log_{10}(\frac{Asignal}{Anoise})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?SNR(dB)=10\log_{10}(\frac{Psignal}{Pnoise})=20\log_{10}(\frac{Asignal}{Anoise})" title="SNR(dB)=10\log_{10}(\frac{Psignal}{Pnoise})=20\log_{10}(\frac{Asignal}{Anoise})" /></a>
+
+其中<br>
+ 为信号功率(Power of Signal)。<br>
+ 为噪声功率(Power of Noise)。<br>
+ 为信号幅度(Amplitude of Signal)。<br>
+ 为噪声幅度(Amplitude of Noise)。<br>
+
+其实信噪比就是信号功率在db单位上的相减，还有一个单位dBm，可看做是用来衡量能量的一个绝对量，以1mW为基准。<br>
+ 以上来自：<https://blog.csdn.net/xiahouzuoxin/article/details/10949887 ><br>
 
 
 
-# Reference
+
+tips: add formula to git, please refer this :<br>
+<https://www.codecogs.com/latex/eqneditor.php><br>
+<https://www.jianshu.com/p/c169599726e1><br>
+
+#### Reference
 > All content is searched from the Internet, I am trying to pin every original link to cited parts, delete if tort
 
 
