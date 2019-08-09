@@ -66,7 +66,7 @@ hello.exe lena.jpg
 Argument 0 is hello.exe.
 Argument 1 is lena.jpg.
 ```
-来自：http://wiki.opencv.org.cn/index.php/Main%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0argc%EF%BC%8Cargv%E8%AF%B4%E6%98%8E
+来自：<http://wiki.opencv.org.cn/index.php/Main%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0argc%EF%BC%8Cargv%E8%AF%B4%E6%98%8E>
 
 <br>
 <br>
@@ -109,9 +109,8 @@ Argument 1 is lena.jpg.
 位运算原理：C中不能直接使用二进制，&两边的操作可以是十进制，八进制，十六进制，他们在内存中最终都是以二进制形式存储，&就是对这些内存中的二进制位进行运算<br>
 ^按位异或<br>
 ~取反<br>
-<<左移<br>
->>右移<br>
-
+<<左移;>>右移<br>
+<br>
 <br>
 <br>
 把要转换的变量转换为二进制，再按照规则进行位运算：<br>
@@ -185,8 +184,9 @@ struct SIMPLE{
     double c
 };
 ```
-
+<br>
 5. 其他<br>
+<br>
 1> EPS示浮点相对精度。对双精度数值来说eps表示从 1.0 到下一个最大双精度数的距离。对单精度数值来说eps表示从 1.0 到下一个最大单精度数的距离。<br>
 
 2> C语言中要输出宽字符，可以使用wprintf()，同时要设置本地化，以适应宽字符输出
