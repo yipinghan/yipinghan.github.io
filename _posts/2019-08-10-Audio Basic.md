@@ -2,7 +2,7 @@
 layout:     post
 title:      Audio Basic
 subtitle:   common concepts
-date:       2019-08-09
+date:       2019-08-10
 author:     HYP
 header-img: img/post-bg-iWatch.jpg
 catalog: true
