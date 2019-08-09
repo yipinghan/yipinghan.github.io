@@ -195,3 +195,7 @@ wprintf(L"%c\n",wc);<br>
 
 3>强制转换注意单位,不要改写参数名称,PCM必须16BIT（ASR）<br>
 
+#### Reference:
+
+>  Internet searching  - Delete if tort
+
