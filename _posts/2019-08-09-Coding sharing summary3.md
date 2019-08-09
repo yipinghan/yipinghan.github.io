@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Coding sharing summary
+title:      Coding sharing summary3
 subtitle:   C/Audio
 date:       2019-08-09
 author:     HYP
@@ -14,7 +14,7 @@ tags:
 > coding issues
 
 # 错误总结
-
+<br>
 1. 变量名写错 <br>
 <br>
 2. C语言容易出现内存泄露：比如加载了wav文件，有两个track，track是柔性数组，但是如果想：track[3]=track[1]，不好这样操作，以为track是在loadwac的时候就读取文件，分配特定好的track，虽然track数组指针可以往后增加，但是前提是内存分配有的情况下，否则就会写入其他的内存区域，导致释放时出错<br>
