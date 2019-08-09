@@ -44,10 +44,12 @@ round(-1.3)=-1;round(-1.52)=-2;round(1.3)=1;round(1.52)=2。<br>
 基本可以完成对EXCEL的基本操作<br>
 <br>
 <br>
+
 2. 加os.system("pause")保持窗口<br>
 原因是你双击运行时，程序是按顺序执行的，当执行完最后语句时程序就退出了，给我们的感觉就是有个黑窗口一闪而过，加上os.system("pause")后程序运行结束后会暂停执行，然后等待用户输入再退出。在命令行窗口执行脚本也是可行的，因为程序的输出是到命令行窗口<br>
 <br>
 <br>
+
 3. Python 打包EXE<br>
 打开cmd窗口，需要安装 pyinstaller，pypiwin32<br>
 指令：<br>
