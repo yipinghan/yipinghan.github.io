@@ -1,72 +1,25 @@
 ---
 layout:     post
-title:      CocoaPods公有仓库的创建
-subtitle:   手把手教你创建 CocoaPods 公有仓库
-date:       2017-03-08
-author:     BY
+title:      How to make a simple song
+subtitle:   Sound/Logic
+date:       2019-08-10
+author:     HYP
 header-img: img/post-bg-ios10.jpg
 catalog: true
 tags:
-    - iOS
-    - CocoaPods
-    - Git
+    - sound
+    - Logic Pro
 ---
 
 > 本文发布于 [BY Blog](http://qiubaiying.github.io)、[简书](http://www.jianshu.com/p/d2d98298b1b8) 转载请保留链接
 
-# 前言
+# Introduction
 
-作为iOS开发者，CocoaPods的使用为我们开发带来了极大的便利。
+Using Logic to make a simple song is very basic, I share the process and some feelings during arrangement. By the way I learn it from youtube, if you are interested in it, please google "logic" and you will find many tutariol.
 
-我们先来看看CocoaPods本地目录中有什么
+Here is the preview of my project:
+![](https://raw.githubusercontent.com/yipinghan/yipinghan.github.io/master/img/logic面板.png)
 
-	$ cd ~/.cocoapods/repos/master
-	
-或者显示隐藏文件
-
-	$ defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
-	
-然后进入 `~/.cocoapods/repos/master` 
-
-你会发现 `master` 是一个 git 仓库，输出仓库的远程地址，发现是一个GitHub仓库
-
-	$ git remote -v
-	
-	origin	https://github.com/CocoaPods/Specs.git (fetch)
-	origin	https://github.com/CocoaPods/Specs.git (push)
-
-	
-[![](https://ww4.sinaimg.cn/large/006tKfTcgy1fdgdi59dnnj31kw10247u.jpg)]()
-
-继续，我们进入`Specs`文件夹一直往里点
-
-![](https://ww3.sinaimg.cn/large/006tKfTcgy1fdgdpyex7mj30yk0bkdi5.jpg)
-
-你会发现很多框架以及版本号，选择一个框架，通过
-
-	$ pod search YYImage
-
-pod搜索 Specs 文件夹中的框架，输出框架信息
-
-	-> YYImage (1.0.4)
-	   Image framework for iOS to display/encode/decode animated WebP, APNG, GIF,
-	   and more.
-	   pod 'YYImage', '~> 1.0.4'
-	   - Homepage: https://github.com/ibireme/YYImage
-	   - Source:   https://github.com/ibireme/YYImage.git
-	   - Versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0, 0.9.5, 0.9.4, 0.9.3, 0.9.2,
-	   0.9.1, 0.9.0, 0.8.9 [master repo]
-	   - Subspecs:
-	     - YYImage/Core (1.0.4)
-	     - YYImage/WebP (1.0.4)
-每个版本号对应的一个json文件,描述了每个对应版本的框架的信息、配置、及源码下载地。
-
-![](https://ww4.sinaimg.cn/large/006tKfTcgy1fdgdsl5tdxj318q14mdq2.jpg)
-
-我们在 CocoaPods 发布我们的框架时，就是要在 `master` 仓库中添加我们的仓库描述信息，然后push到远程仓库中。不过这个过程不用我们手动去操作，只需要通过`pod`命令进行操作即可。
-
-
-下面我们将一步步把我封装的这个简单的TextFiled控件 [BYPhoneNumTF](https://github.com/qiubaiying/BYPhoneNumTF) 上传到 Cocoapods 公有仓库中。
 
 # 正文
 
