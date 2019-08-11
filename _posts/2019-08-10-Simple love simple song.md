@@ -47,6 +47,7 @@ Here is the preview of my project:
 请点击链接：<https://www.bilibili.com/audio/au1016585?type=3>
 
 <p>http://pw2p6vgvb.bkt.clouddn.com/test_SimpleLove.wav</p>
+<p>http://pw2p6vgvb.bkt.clouddn.com/Jennifer_Kim.mp3</p>
 
 http://music.163.com/song/media/outer/url?id=317151.mp3
 
