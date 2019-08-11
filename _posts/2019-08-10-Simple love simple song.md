@@ -47,6 +47,7 @@ Here is the preview of my project:
 请点击链接：<https://www.bilibili.com/audio/au1016585?type=3>
 <p>http://pw2p6vgvb.bkt.clouddn.com/test_SimpleLove.wav</p>
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://pw2p6vgvb.bkt.clouddn.com/test_SimpleLove.wav"></iframe>
 #### 
 
 > 本文发布于 [HYP Blog](http://yipinghan.github.io) 转载请保留链接
