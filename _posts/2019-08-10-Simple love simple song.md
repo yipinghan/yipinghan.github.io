@@ -44,16 +44,10 @@ Here is the preview of my project:
 整个过程中，首先注意快捷键的使用，最初始的LOGIC有一些快捷键是没有的，可以自己设置，其次建议在最开始的时候留白1-2小节，体验会好一点，最后乐器的选择也很重要，注意和谐……
 
 ### 4.作品
-请点击链接：<https://www.bilibili.com/audio/au1016585?type=3>
 
-<p>http://pw2p6vgvb.bkt.clouddn.com/test_SimpleLove.wav</p>
 <p>http://pw2p6vgvb.bkt.clouddn.com/Jennifer_Kim.mp3</p>
 
-http://music.163.com/song/media/outer/url?id=317151.mp3
 
-http://pw2p6vgvb.bkt.clouddn.com/test_SimpleLove.wav
-
- <embed autostart="true" hidden="true" loop="true" src="http://ois5yh1xg.bkt.clouddn.com/%E5%8D%A2%E5%86%A0%E5%BB%B7%E4%B8%80%E7%94%9F%E6%89%80%E7%88%B1.mp3"></embed>
 
 > 本文发布于 [HYP Blog](http://yipinghan.github.io) 转载请保留链接
 
