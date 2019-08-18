@@ -38,7 +38,7 @@ But if you want to past the test, you have to keep the logic of operations in mi
 the test you would not see in the exercises. There are not questiones bank on the internet, so you may try the test for real.
 
 #### Certification
-<br>
-![wwise101](img/wwise101.jpg)
+
+![wwise101](/img/wwise101.jpg)
 
 > It was first posted here[HYP Blog](http://yipinghan.github.io) , please keep link if repost.
