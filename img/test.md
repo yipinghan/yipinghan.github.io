@@ -35,3 +35,34 @@
 主要项目：对语音信号进行多维度评价，将主客观对应，提高算法模型评价能力 
 项目职责：使用多种相关音频算法，对语音信号进行多维度客观评价，提高算法的鲁棒性；
                   同时拉动资源进行主观音质评价，主导建立主客观评价体系，同时负责模型落地
+                  
+                  
+                  
+Background: Master degree in Audio Technology, 2-year experience in audio technology in media, 2-year project experience in communication company; 
+Skills: sound quality evaluation, voice signal processing, audio and video processing, audio algorithm, tuning
+Communication: strong affinity and interpersonal skills, able to deal with personal at all levels effectively. 
+Personality: calm and steady personality, able to work under high pressure and different environment, have high sense of responsibility.
+
+
+
+Responsibilities: participated in the sound recording of a show “the voice of China”, and was solved technical problems such as system connection for audio signal
+I applied theory to practice, and accumulated operation experience.
+
+Description: this project is aimed at teaching the basics of acoustics and training the hearing for lab researchers to improve their professional skill.
+Responsibilities: It lasted 4 months, 48 class hours in total, mainly covering acoustic phenomenon, hearing training, noise measurement, hardware use, etc.
+Results: 92% of the researchers showed significant improvement in their hearing skills after the course
+
+
+
+Participated in message sending service projects, meeting reservation project and user experience project which design the product with users’ requirements, coordinated resources to guarantee the functions. 
+
+Requirements analysis: according to business communication to get the main information, set development plans which include Java, Python, Scikit-Learn technologies, etc. Provide the high quality delivery for users. Also promoting the projects with videos on Wechat platform, and provide technical support for all services.
+Value: These services all had high utilization
+
+
+Responsible for the audio detection algorithm development for client Huawei Company. Focus on algorithm integration and audio quality evaluation. 
+
+According to the requirements for voice signal, perform the development plans with C and python. Worked closely with the client and team members on issues. Based on psychoacoustics created new corresponding relation between the objective and subjective evaluations of phone use. Gather papers information in audio field and hold trainings regularly
+
+Value: The evaluation ability and robustness of audio detection algorithm got increased.
+
