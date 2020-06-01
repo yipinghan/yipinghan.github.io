@@ -114,3 +114,35 @@ I hope to help others whose aspiration are similar to mine, I would like to shar
 我希望能够成为一个教授SD内容的老师，我认为这是帮助别人最快的方法，为社会培养更多能够专注于自身兴趣点的人，这是我认为体现我价值最直接的方式，在学生迷茫的时候帮助他们，因为方向和目标我认为是非常重要的
 
 此外，我想建立个人的频道，比如分享我的经历，或者录制课程，或者发布我的作品，帮助更多的人，让更多人知道如何找到自己的目标并实现它，在我不知道该如何完成创造的时候，我得到了很多人的帮助，我希望自己也能够有这样的能力去帮助更多人，成为一个影响者
+
+
+
+非常感谢你们的通知，我知道我还在WL上，请问什么时候可以有最终的结果
+
+我相信你们一定是看过了很多份申请之后才做出了这样的决定，首先感谢你们的辛苦付出，尤其是在新冠病毒期间，在这里我仍然希望能够再争取下这份申请。
+
+
+2020年发生了很多事，在这我申请这份奖学金的额时候是绝对想不到的。在这和漫长的等待中，也许足够聪明的人已经要开始进行PLANB了，但我内心总还是希望能够有机会进行下一学年的学习，总有念头告诉我应该再等等。
+在疫情期间，我看到人类对于疫情抗击的坚持，当到我看到，Oneworld LIVE，我明白艺术已经不在于是我个人的发展，还是表达我个人心情了。科技也许可以解决很多问题，但是他不能解决所有问题，在解决不了的地方，就需要艺术为人类提供支撑的力量。在经历了这件全球性事件之后，我更加确信了这个想法，通过学习来提升自己的职业前途，这意义看起来如此渺小。我相信你们看中的肯定不是拥有优秀成绩的利己主义者，而是像终南山这样可以为广大校友提供榜样的学生。
+
+在没得到通知之前，我申请了COURSERA的奖学金，并学习了关于music production 的课程，在学习期间帮助其他学生评价作业，解答问题，同时我们也组建了翻译小组，为更多的知识传播贡献自己的力量。我想这是一个好的开始，是一种对我的肯定，让我用自己力量帮助别人，让后辈前进的道路更平坦。行动的速度更快。
+
+作为一个敏感的人，我必须要说，外界的肯定具有很大的推动的因素，对自己的选择来说，也许changing 转变就在一瞬间
+
+当然，不管申请最终的结果如何，我都希望大家健康平安，尤其是眼前这段特殊时期
+
+
+
+Thanks for your letter, I know I am on the waiting list. May I ask when will I know the final result?
+I suppose that you must have reviewed many applications and have this result so far. Firstly thanks for your efforts especially during virus happening. Here I want to express the opinion I have about this scholarship
+
+
+There are a lot of things happened this year, which I won't think about it. In this long waiting, I suppose that people who are smart enough have started their plan B. But for me, I still think I have hope. During these months, we all witnessed human fighting for virus. When I watched the One World Live show, I realized that, art is not about personal improvement or  personal mood  but about supporting human being's emotions. Tech may can solve many problems, but it cannot fix all problems which need art to show its strength. Suffering this global medical event has strengthened  my idea that the meaning of improving personal career development seems insignificance. I am sure that your community would prefer the student like NanshanZhong who set a good example for alumna rather than the students with excellent grades who are self-serving elites. 
+
+
+Before I got the information form you, I applied the scholarship and learned the knowledge about music production. During this class, Except reviewing other students' assignment and answering questions in forum , I also joined official translate groups for transferring knowledge for more students, which I think is a good start. This confirmation for me is a good sign to give me strength to help others making others' way flatter and faster. As a sensitive person, I have to say that external power has irreplaceable meaning for changing in a split second.
+
+No matter what the final result is, I hope you all healthy and safe, especially in this particular period.
+
+
+
