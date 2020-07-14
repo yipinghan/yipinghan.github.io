@@ -1,6 +1,16 @@
 Background: Master degree in Audio Technology, 4-year in audio technology field, 1.5-year in the motor-dom; Be able to deal with personal at all levels effectively, to work under high pressure and different environment.
 Skills: sound quality evaluation, signal processing, audio and video processing, audio algorithm
+
 Personality: Calm and steady personality, has a sense of responsibility.
+Professional Background: 1.5 years in manufacturing, 2 years in Internet and communication; Be familiar with sound quality evaluation, voice signal process, line array loudspeaker evaluation method.
+
+Project management: Be able to pass project evaluation, Communication and process management methods to complete the integration of information resources, responsible for planning supplier needs, mining industry information, to find the characteristics and highlights of the product requirements of the supplier system.
+
+Communication skills: Excellent team collaborators, participate in many technology industry projects, in the sound, Internet product technology, Automotive supplier system and other projects have accumulated communication skills, skilled to control the direction of communication, to achieve the purpose of cooperation, product planning, communication and coordination of strong comprehensive quality
+
+
+
+
 
 
 Courses: Theoretical Acoustics, Modern Signal Processing
@@ -23,9 +33,16 @@ According to the reasearch result we found the rules in acoustics radiation and 
 2017/07-2018/12  SGM  Delivery Engineer
 Participated in messages sending service projects, meeting reservation project and user experience project which designed the product with users' requirements, coordinated resources to guarantee the functions. 
 Responsibilities: 1. Got the main information according to business communication, set development plans and developed it. Provided high quality of delivery for users. 2. Also promoted the projects with videos on Wechat platform, and provided technical support for all services. 
-
 Skills: Java, Python, Scikit-Learn technologies, etc. 
 Value: These services all had high utilization.
+
+
+Work performance: Got the main information according to business communication, set development plans and developed it. Provided high quality of delivery for users. Also promoted the projects with videos on Wechat platform, and provided technical support for all services. 
+Skills: Java, Python, Scikit-Learn technologies, etc. 
+Value: These services all had high utilization.
+
+
+
 
 
 2018/12—NOW.  ISOFTSTONE  Audio Engineer
