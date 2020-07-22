@@ -83,6 +83,47 @@ FATP测试专家，对FCT、音频、射频、光学测试有丰富的经验，�
 较强的能力和经验，建立跨职能的关系，在组织的各个层次
 需要出差:最多50%
 
+FB （供应商/测试）
+1.确定供应商，和供应商沟通，协助测试
+2.建立开发和技术
+3.消费电子供应商打交道
+4.测试自动化，解决测试问题
+
+交付工程师
+选择合适的供应商，开发工作，提供服务，确保项目后期技术支持
+音频工程师
+熟悉音频测试方法，实现测试自动化，提高测试效率
+
+
+Ericsson  战略采购
+按照项目需求，对供应商进行调研，汇总信息和筛选。协助完成全球供应商订单日常沟通
+积累商务沟通经验，负责全球70多家供应商订单确认和沟通事宜
+Got the main information of suppliers based on the projects needs and selected the 
+Prompt suppliers for projects. Dealt with suppliers on daily communication about 
+projects orders and processes, which were over 70 suppliers.
+
+SGM 交付工程师
+按照项目需求，收集供应商信息，开发新合作的供方，评估供应商，对合作项目的细节进行
+沟通。项目合作期间要保证项目进度，规范供应商管理流程。
+负责项目技术代码编写，主要涉及python,java。
+负责项目上线后的先传和技术支持工作
+Developed new suppliers , Gathered information of suppliers based on projects needs and evaluate their performance. 
+Make sure every detail of projects process could be realized and delivered in time. Normalized process
+Of suppliers management
+
+Be in charge of coding including python, java. 
+Also be in charge of technical support and promotion of projects.
+
+
+IS 音频测试工程师
+熟悉音频信号测试方法，测试软硬件
+自动化实现项目，提高测试效率
+Familier with testing equipment to evaluate costum devices.
+Analysis test results by suanfa (matlab and python) and provide comprehensive test reports.
+Prodivded prompt support to customers 
+Be in charge of automation testing projects for analysing audio signal
+
+自动化项目
 
 
 2.FAE. dolly
