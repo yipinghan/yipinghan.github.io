@@ -171,6 +171,17 @@ DescriptionResponsibilities包括
 
 
 
+For my first master's degree, based on my engineering background I chose audio technology as my major. During this period, I made many attempts to increase my understanding of the audio field. For example, I worked as an audio technologist in the recording of the famous show “Voice of China”. Also, as a trainer, I taught the basics of acoustics and trained the hearing of lab researchers. Gradually, I grew particularly interested in psychoacoustics and sound design, particularly the kind of sound which could be attractive and how technology could generate it. Eventually, learning sound design became my inner passion.
+
+After graduating from CUC with excellent results, I became an audio engineer. The skills I learned helped me to deepen my understanding of relevant working practices. However, I found although I can use various scientific methods to reduce noise, make voices sound crisper and cleaner, I could not design complimenting sounds for products based on the enterprise’s characteristics. I suppose that is why my work responsibilities still remain ensuring the sound quality is acceptable to users, rather than providing better sound performance for users.
+
+Over time, I have been thinking hard about pursuing another Master’s degree in sound design. Knowledge of sound design is pivotal for me to answer the lingering doubts of art using practical technology. Especially as the end target is the pursuit of an abstract art form. In comparing curriculums of different schools, I find that most other curriculums are aimed at film or TV production. By contrast, your school’s course is aimed towards thinking about sound’s role in a wider creative arts environment, and it provides advanced skills for whichever media context I wish to specialize in. I believe this project will augment my growth because its values are congruous with my goals. 
+
+I am keenly aware that pursuing further study through a scholarship would provide benefits in many ways. But most important is the positive support, which will help supplement my confidence in the viability of my career goal. Sound-related work is not as popular as work as software engineers. It is easy to compromise and bow to the life pressures. I have also experienced struggles, disappointment, and self-doubt. I believe this scholarship is a needed show of a support to artists - just like Andrew Grant gave his support to young artists, encouraging us to have confidence in future, which is our greatest desire as people who want to engage in the art industry.
+
+In this rare one-year learning opportunity, I intend to set up a personal channel on the Internet, sharing my experiences about learning to let more people get to know about sound design and your school. I hope that would have valuable reference for upcoming sound designers’ choices, because I have been personally influenced by alumni from your school. 
+
+In general, I know that the ECA community can offer me the opportunity to achieve this goal. I hope that my application for this scholarship will be successful.
 
 
 首先我选择这个项目，是基于职业发展上的考虑，希望能在目前所有的基础上有新的突破和交叉式的工作发展
