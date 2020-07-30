@@ -172,33 +172,45 @@ DescriptionResponsibilities包括
 
 
 
-为为什么选择英格兰，为什么选择这个学校，为什么选择这个项目
-After graduating from CUC with excellent results, I became an audio engineer. The skills I learned helped me to deepen my understanding of relevant working practices. However, I found although I can use various scientific methods to reduce noise, make voices sound crisper and cleaner, I could not design complimenting sounds for products based on the enterprise’s characteristics. I suppose that is why my work responsibilities still remain ensuring the sound quality is acceptable to users, rather than providing better sound performance for users.
-Knowledge of sound design is pivotal for me to answer the lingering doubts of art using practical technology. Especially as the end target is the pursuit of an abstract art form. In comparing curriculums of different schools, I find that this programme's course is aimed towards thinking about sound’s role in a wider creative arts environment, and it provides advanced skills for whichever media context I wish to specialize in. I believe this project will augment my growth because its values are congruous with my goals.
-One-year learning opportunity is rare, it also an efficient way for employees to improve the careers. Also England is an old country with long history which I obsessed with. I am sure that this experience will open my mind and bring sparks of ideas.
+Yiping han
+Shanghai China 17717070307 eyipinghan@163.com
 
+Work experience
 
-首先我选择这个项目，是基于职业发展上的考虑，希望能在目前所有的基础上有新的突破和交叉式的工作发展 这份项目所能提供的内容在音频设计领域来说是非常重要的。我是一个音频工程师，我非常希望能够为自己的发展添加艺术的部分，我相信当我有这样的学习经历在职场上，一定能够解决更多的问题，不论是艺术上还是技术上，这都为这个项目进行了无声的宣传。 如果成为scholars，可以遇见得到，一定会有很多宣传方面的工作，我非常高兴和乐意做这样的事，这不仅是我的专长，也是我的兴趣所在，音视频媒体的传播已经是目前全球最主要的宣传方式之一，而我作为音频工程师或者说是声音设计师，我希望能用我的技能，为宣传提供更多的可能性，而且有更多人能够通过我们的宣传知道和了解苏格兰，知道我们这个项目，能够也励志加入，为更多的需要帮助的人传递信息，帮助他人实现目标。我相信我会在international network中遇到来自各国优秀的各行各业从业者，这样的火花碰撞机会实属难得，相信每一个人都很渴望，能够以多个角度看待世界，相信这是一种全新的成长方式。
-First of all, I choose this programme based on the consideration of career development, hoping to make new breakthroughs. As an audio engineer, I am eager to add art to my own development. 
-If I become scholars, It can be expected that there will be a lot of 
-Publicity of this program , I am very glad and happy to do such things. This is not only the things I am good at, but also my interest.
-The audio and video media is currently one of the most important publicity way in the world.  
-I, as an audio engineer or sound designer, hope to provide more possibilities for program promoting by using my skills, to let  more people get to know Scotland and this project, 
-
-It is meaningful that we can inspire people who need the information and help them to achieve their goals. 
-
-Joining in the International network, I will meet many outstanding people from all walks of life. Such a rare opportunity, I believe that everyone is eager to have it.
-
-It is a new way of growth to see the world from multiple perspectives. 
-
-你在交流（书写和表达上）有什么经验或者技能，和别一起工作有什么技能或者经验 和别人一起工作时我是很出色的协助角色，我擅长在主力中坚力量完成之后锦上添花，各种没有注意到的细节或者需要展示需要交流的部分，我都可以出色的完成，让整个工作有更好的成果。Presatation 有很多种，大型场所或者小型会议，无论是什么场合，我知道首先要逻辑清晰，条理有序，这也是我作为工程师的最基本的职业素养，否则很容易让人困惑。其次要保持良好的耐心的态度，这也是我在工作几年之后学习到的经验，不论面对的观众是什么角色，有什么样的反应，能保证稳定的情绪和认真礼貌是很必要的。在presatation的过程中，音频和图像的结合是常用的手段之一，我擅长使用音频作为展示，这不仅可以提高人们的注意力，还能为展示留下深刻的回忆。
+Audio Engineer  ISOFTSTONE  12/2018-present
+Shanghai
+Knowledge of python, matlab
+Able to evaluate audio signal with AP, Acqua, 
+The ability to quickly and thoroughly learn a variety of technical topics in a short time
+Able to use audio signal processing algorithms to evaluate audio problems
+Increase knowledge in audio field for ability development
 
 
 
 
-I am a very good assist role at work, I'm good at the icing on the cake. After the completion of the main part, I can make the whole work better. 
+Delivery Engineer SGM 07/2017-12/2018
+Shanghai 
+Knowledge of java, python
+Able to analyse requirement and select suppliers for programes.
+Work with developemnt groups to finish coding and deliverying programes.
 
-There are many kinds of Presatation, such as large venues or small meetings. No matter what the occasion is, I know that the first thing is to be logical and organized, which is also my basic professional quality as an engineer, otherwise it is easy to get confused. Secondly, it is necessary to maintain a good attitude of patience, which is also the experience I have learned after working for several years. No matter what role the audience is playing and what kind of reaction they have, it is necessary to ensure stable mood, seriousness and politeness. In the process of presatation, the combination of audio and images is one of the commonly used ways. I am good at using audio as presentation, which can not only improve people's attention, but also leave deep memories for presentation.
+Learn tools related to job funtions
 
+
+Education
+
+CUC 2014-2017
+SHNU 2010-2014
+
+Professional skills
+Excellent written and verbal communication skills
+4-5years of audio relevant experiences
+Python,Matlab programming and debugging skills
+Prior experience with evaluation audio signal from subjective and objective perspectives
+
+Strong automation skills for audio signal processing
+Hands-on experience with audio testing and acoustic measurement 
+
+https://www.mintresume.com/resumes/staff-applications-engineer
 
 
