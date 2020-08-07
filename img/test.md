@@ -213,4 +213,50 @@ Hands-on experience with audio testing and acoustic measurement
 
 https://www.mintresume.com/resumes/staff-applications-engineer
 
+Cmd
+需要安装 pyinstaller，pypiwin32
+Python -v
+Python -m pip install pyinstaller
+Python -m pip list
+Python -m PyInstaller -w main.py -F -n soundleakageplatform     项目名中间不能有空格   注意包名大小写，不要写错，否则找不到包
+Python -m PyInstaller -V
+Python -m pip list
+Python -m pip install pypiwin32
+
+ -w 打包pyqt的
+
+Python -m PyInstaller -w main.py -F -n soundleakageplatform   第一种生成方式，只有EXE
+Python -m PyInstaller -w main.py -n soundleakageplatform   第二种生成方式，文件夹形式
+
+如果出现无法运行脚本的情况，请用下面的语句打包.
+Python -m PyInstaller -w main.py -F -w -c soundleakageplatform
+https://blog.csdn.net/h330531987/article/details/85853750
+https://segmentfault.com/a/1190000014781519
+
+
+在项目所在的文件夹中打包
+只能使用打包成文件夹的形式，注意要把
+
+C:\Python34\Lib\site-packages\PyQt4\plugins  
+的文件夹platforms 复制到打包的文件夹
+D:\SVN\hwx652124\sound leakage platform\Audio_Fault_Injection_Detection_System2.2\dist\soundLeakagePlatform\qt4_plugins 中
+
+还要把DLL文件复制到D:\SVN\hwx652124\sound leakage platform\Audio_Fault_Injection_Detection_System2.2\dist\soundLeakagePlatform 中
+
+打包后会出现三个文件，一个是build文件夹，一个是dist文件夹，一个是soundLeakagePlatform.spec   
+
+可执行文件在 D:\SVN\hwx652124\sound leakage platform\Audio_Fault_Injection_Detection_System2.2\dist\soundLeakagePlatform
+
+重新打包，把之前的删了，重新生成
+
+吧.spec修改，没有的模块都写入hiddenimports设置里
+然后重新打包
+pyinstaller -F Test16_XRL.py  -F打成exe就行
+
+             hiddenimports=['cython','sklearn','sklearn.utils._cython_blas','sklearn.neighbors.typedefs','sklearn.neighbors._quad_tree','sklearn.tree','sklearn.tree._utils','sklearn.tree._tree','sklearn.tree._criterion','sklearn.tree._splitter'],
+
+
+
+
+50,1000，
 
