@@ -257,6 +257,184 @@ pyinstaller -F Test16_XRL.py  -F打成exe就行
 
 
 
+% Date: 12/12/2019
+% author: Jingwei Xi, Jieru Chen
+%% use steps:
+% 1、填入需要读取的.wav文件名称
+% 2、设置每帧的时间长度
+% 3、填入需要保存的wav文件名称(此步骤可跳过，默认存储为与.wav文件同名的.mat文件)
+% 4、运行本程序即可得到一个.mat文件，包含所有的计算结果
 
-50,1000，
+%% 
+clc;
+clear;
+close all;
+%%
+filename = 'h99d1.5degC0_1_5.1channel_TV__num1';
+[audio,Fs] = audioread([filename '.wav']);
+time_frame = 1; % time of each frame, always be 1s or 0.2s
+savename = [filename  '.mat']; % name of stored file, and can be changed 
+%%
+BinauralEvalution(audio,Fs,time_frame,savename)
+
+
+
+
+function BinauralEvalution(audio,Fs,time_frame,filename)
+%% Input：
+% auido： Audio to be processed
+% Fs: sampling rate
+% time_frame:  time of each frame, always be 1s or 0.2s
+% filename: % name of stored file
+%%
+% Date: 12/12/2019
+% author: Jingwei Xi, Jieru Chen
+% 补充说明： 此代码中有load外界mat文件的语句，请勿删除sca8820.mat和sca44100.mat文件
+
+%% preprocessing
+% enframe
+audio_len = length(audio); % length of signal
+audioMeanPow = sum(sum(audio.^2))/size(audio,1); % mean power of signal
+point_frame = Fs*time_frame; % point number of frame
+zero_len = mod(audio_len,point_frame);
+testwav = [audio;zeros(point_frame-zero_len,2)];
+frame_num = length(testwav)/point_frame; % the number of time frame
+
+% Initialization
+x_l = zeros(point_frame,frame_num);
+x_r = zeros(point_frame,frame_num);
+thetaT = zeros(1,frame_num);
+thetaL = zeros(1,frame_num);
+thetaJ = zeros(1,frame_num);
+ASW = zeros(1,frame_num);
+IACC = zeros(1,frame_num);
+frame_power = zeros(1,frame_num);
+
+%% compute
+load(['sca' num2str(Fs*time_frame) '.mat']);
+% "betaAv alphaAv" of HRTF database, will be used in the THETA calculation
+k = 0;
+for n = 1:frame_num
+    
+    % begin the processing for every frame
+	wav_frame = testwav( 1+(n-1)*point_frame: n*point_frame,:); % signal in this frame
+    frame_power(n) = sum(sum(wav_frame.^2))/point_frame; % mean power of signal in this frame
+    if frame_power(n) > 0.2*audioMeanPow
+        
+        % if the power of this frame satisfy the above condition, we assume this frame have signal and compute.
+        k = k+1;
+        sel(k) = n; % frame number which frame have signal
+        x_l(:,n) = wav_frame(:,1); % signal of left ear in this frame
+        x_r(:,n) = wav_frame(:,2); % signal of right ear in this frame
+        
+        %% part I : theta got with ITD
+        [thetaT(n),ASW(n),IACC(n)] = EvalutionITD( x_l(:,n), x_r(:,n), Fs,alphaAv );
+        
+        %% part II : theta got with ILD
+        thetaL(n) = EvalutionILD( x_l(:,n), x_r(:,n),Fs,betaAv );
+        
+        %% part III : Joint theta
+        thetaJ(n) = 1/2*( thetaT(n) + thetaL(n) );
+        
+    end
+end
+
+%% result analysis
+% mean
+thetaTmean = mean(thetaT(sel));
+thetaLmean = mean(thetaL(sel));
+thetaJmean = mean(thetaJ(sel));
+IACCmean = mean(IACC(sel));
+ASWmean = mean(ASW(sel));
+
+% score the result and save
+eta = (max(thetaJ)-min(thetaJ))/180;
+
+%% result save
+save(filename,'thetaT','thetaL','thetaJ','IACC','ASW','sel','thetaTmean','thetaLmean','thetaJmean','IACCmean','ASWmean','eta');
+
+
+
+function thetaResult = EvalutionILD(sL,sR,Fs,betaAv)
+%% Input：
+% sL： left-ear signal 
+% sR: right-ear signal
+% Fs: sampling rate
+% betaAv: Equivalence Factor for ILD computing
+%% Output：
+% thetaResult: theta of virtual source
+%%
+% Date: 12/12/2019
+% author: Jingwei Xi, Jieru Chen
+
+%%
+% parametic setup
+point_frame = length(sL); % point number of each frame
+theta = deg2rad( (-90:90)' ); % range of signal direction 
+fre_low = floor(1500/Fs*point_frame);% cut-off frequency in the ITD calculation
+fre_high = floor(10000/Fs*point_frame);% cut-off frequency in the ILD calculation
+
+% fft, translate to frequency domain 
+sLfft = fft(sL);
+sRfft = fft(sR);
+
+% ILD
+ILD = 20*log10(  abs( sRfft(1:point_frame/2+1) ./ sLfft(1:point_frame/2+1)) );
+ILD_k = ILD./betaAv; 
+
+% compute the signal direction by angle matching (compare with rigid ball model)
+ild_rep = repmat(ILD_k(fre_low+1:fre_high),1,size(theta,1)); % use high frequencies from 1.5kHz to 10k
+theta_rep = repmat(theta,1,size(ild_rep,1));
+error_L= abs( ild_rep- sin(theta_rep.')).';
+pow = abs(sLfft(fre_low+1:fre_high))+abs(sRfft(fre_low+1:fre_high));
+error = sum(  error_L(:,find(pow > mean(pow))) ,2 );
+thetaResult = rad2deg( theta( error == min(error) ) );
+
+
+
+
+
+function [thetaResult,ASW,IACC] = EvalutionITD(sL,sR,Fs,alphaAv)
+%% Input：
+% sL： left-ear signal 
+% sR: right-ear signal
+% Fs: sampling rate
+% alphaAv: Equivalence Factor for ITD computing
+%% Output：
+% thetaResult: theta of virtual source
+% ASW : apparent source width
+%%
+% Date: 12/12/2019
+% author: Jingwei Xi, Jieru Chen
+
+%%
+% parametic setup
+r = 0.0875; % the radius of head 
+c = 343; % sound speed
+theta = deg2rad( (-90:90)' ); % range of signal direction 
+point_frame = length(sL); % point number of each frame
+
+% with loss pass filter
+sL_low = lowpass(sL,1500,Fs);
+sR_low = lowpass(sR,1500,Fs);
+
+% NCF 
+term2=sum(sL_low.^2);
+term3=sum(sR_low.^2); 
+NCF = xcorr( sR_low,sL_low )/sqrt(term2*term3);
+
+% IACC and ASW
+[IACC ,sp] = max( NCF(point_frame-floor(Fs/1000) : point_frame+floor(Fs/1000)) );
+ASW = 1 - IACC;
+
+% ITD
+delay = floor(Fs/1000) + 1-sp;     
+ITD = delay/Fs;
+ITD = ITD/mean(alphaAv); 
+
+% compute the signal direction by angle matching (compare with rigid ball model)
+itd_rep = repmat(ITD,1,size(theta,1));
+error_T = abs( itd_rep./r - (sin(theta)+theta)./c );
+[a,b] = min(error_T);
+thetaResult = rad2deg(  theta(max(b)) );
 
